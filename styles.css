@@ -1,8 +1,63 @@
+@font-face {
+  font-family: main;
+  src: url(assets/gotham-Bold.ttf);
+}
+@font-face {
+  font-family: title;
+  src: url(assets/FontsFree-Net-HelveticaNeueBold.ttf);
+}
+@font-face {
+  font-family: description;
+  src: url(assets/HelveticaNeue\ Medium.ttf);
+}
+@font-face {
+  font-family: location;
+  src: url(assets/Helvetica\ Neue\ LT\ 23\ Ultra\ Light\ Extended.ttf);
+}
+@font-face {
+  font-family: price;
+  src: url(assets/Gotham\ Rounded\ Light.otf);
+}
+
+:root {
+  --color1: #d35266;
+  --color2: #888;
+  --color3: #383838;
+}
+
 .navbar {
-  background: #383838;
+  background: var(--color3);
+}
+
+.navbar a {
+  color: #fff;
+}
+
+.navbar .home {
+  color: var(--color1);
+}
+
+.navbar .navbrand {
+  font-family: main;
+}
+
+li {
+  list-style: none;
 }
 
 footer {
-  background: #383838;
+  border: 1px solid grey;
   margin-top: 180px;
+}
+
+.footer-1 {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.footer-2 {
+  display: flex;
+  justify-content: space-between;
+  margin: auto 20px;
 }
