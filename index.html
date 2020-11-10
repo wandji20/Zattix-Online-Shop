@@ -16,8 +16,8 @@
 </head>
 <body>
   <header>
-    <nav class="navbar navbar-light fixed-top color-white">
-      <div class="container ">
+    <nav class="navbar navbar-light color-white">
+      <div class="container-fluid ">
         <a href="#" class="navbrand">
           <span><img src="assets/logo.png" width="40px" height="40px" alt="logo"></span>
           <span class="text-uppercase">zattix</span>
@@ -39,38 +39,38 @@
           <span>post an AD</span>
         </a>
       </div>
-      <div class="d-none d-lg-block container ">
+      <div class="d-none d-lg-inline">
         <a href="#" class="nav-item nav-link">
           <span class="iconify" data-icon="mdi:android-messages" data-inline="false"></span>
           <span>Marie Ange</span>
-          <span><img src="assets/user-img.jpeg" alt="" width="80" height="80"></span>
+          <span><img src="assets/user-img.jpeg" alt="" width="50" height="50"></span>
         </a>
       </div>
     </nav>
   </header>
-  <main>
-    <section class="welcome">
-      <h1>
+  <main >
+    <section class="welcome container-fluid pt-5 ">
+      <h1 class="text-uppercase text-white text-center">
         zattix
-      </h1>
-      <h4>Buying And Selling Couldn't be Simpler that this</h4>
-      <div>
-        <form action="">
-          <select name="categories" id="categories">
+      </h1 >
+      <h4 class="text-white text-center mt-4">Buying And Selling Couldn't be Simpler that this!</h4>
+      <div class="container py-5">
+        <form action="" class="row ">
+          <select name="categories" id="categories" class="col-3">
             <option value="departments">All Departments</option>
             <option value="clock">Clock and Timing</option>
             <option value="music">Music Maker</option>
             <option value="recorders">Video Recorders</option>
           </select>
-          <input type="search" placeholder="  search item">
-          <input type="text" placeholder="location">
-          <button type="submot">Submit</button>
+          <input class="col-3" type="search" placeholder="  search item">
+          <input class="col-3" type="text" placeholder="location">
+          <button class="col-2" type="submot">Submit</button>
         </form>
       </div>
     </section>
-    <section class="hot-ads">
+    <section class="hot-ads d-none d-md-block container-fluid ">
       <article class="">
-       <img src="assets/clock/wooden-table-clock.jpg" alt="wooden table clock" width="350" height="300">
+       <img src="assets/clock/wooden-table-clock.jpg" alt="wooden table clock"  >
        <div>
         <h3>
           wooden table clock
@@ -88,7 +88,7 @@
        </div>
       </article>
       <article class="">
-        <img src="assets/music/Moog-Drummer-From-Another-Mother.jpeg" alt="" width="350" height="300">
+        <img src="assets/music/Moog-Drummer-From-Another-Mother.jpeg" alt=""  >
         <div>
          <h3>
           Moog Drummer From Another Mother
@@ -104,9 +104,9 @@
            </p>
          </div>
         </div>
-       </article>
+      </article>
        <article class="">
-        <img src="assets/recorders/Sony-FS5-II.jpeg" alt="Sony FS5 II" width="350" height="300">
+        <img src="assets/recorders/Sony-FS5-II.jpeg" alt="Sony FS5 II"  >
         <div>
          <h3>
           Sony FS5 II
@@ -124,214 +124,278 @@
         </div>
        </article>
     </section>
-    <section class="Clocks">
+    <section class="clocks container-fluid mt-0">
       <h3>
         clocks and timing
       </h3>
-      <div class="clock">
-        <article>
-          <img src="assets/clock/alarm-table-clock.jpeg" alt="alarm table clock" width="350" height="300">
-          <h4>alarm table clock</h4>
-          <h5>Used</h5>
+      <div class="clock row">
+        <article class=" col-6 col-md-3">
+          <div>
+            <img src="assets/clock/syed-hussaini-dwdj4nEaQXY-unsplash.jpg" alt="alarm table clock" >
+          </div>
+          <div class="art-description">
+            <h4>alarm table clock</h4>
+          <h5>New</h5>
           <p>From : Buea, Caneroon</p>
           <div>
-            <a href="#"><span>+</span></a>
-            <span>800$</span>
+            <a class="art-add" href="#"><span>+</span></a>
+            <span class="art-price">800$</span>
+          </div>
           </div>
         </article>
-        <article>
-           <img src="assets/clock/bed-clock.jpg" alt="bed clock" width="350" height="300">
-          <h4>bed clock</h4>
-          <h5>Used</h5>
-          <p>From : Buea, Caneroon</p>
-          <div>
-            <a href="#"><span>+</span></a>
-            <span>580$</span>
-          </div>
+        <article class=" col-6 col-md-3">
+           <div>
+            <img src="assets/clock/bed-clock.jpg" alt="bed clock"  >
+           </div>
+           <div class="art-description">
+            <h4>bed clock</h4>
+            <h5>Used</h5>
+            <p>From : Buea, Caneroon</p>
+            <div>
+              <a class="art-add" href="#"><span>+</span></a>
+              <span>580$</span>
+            </div>
+           </div>
         </article>
-        <article>
-           <img src="assets/clock/circular-wall-clock.jpg" alt="circular wall clock" width="350" height="300">
-          <h4>circular wall clock</h4>
-          <h5>Used</h5>
-          <p>From : Buea, Caneroon</p>
-          <div>
-            <a href="#"><span>+</span></a>
-            <span>300$</span>
-          </div>
+        <article class=" col-6 col-md-3">
+           <div>
+            <img src="assets/clock/circular-wall-clock.jpg" alt="circular wall clock"  >
+           </div>
+           <div class="art-description">
+            <h4>circular wall clock</h4>
+            <h5>Used</h5>
+            <p>From : Buea, Caneroon</p>
+            <div>
+              <a class="art-add" href="#"><span>+</span></a>
+              <span class="art-price">300$</span>
+            </div>
+           </div>
         </article>
-        <article>
-           <img src="assets/clock/vintage-world-pendulum-clock.jpg" alt="vintage world pendulum clock" width="350" height="300">
-          <h4>vintage world pendulum clock</h4>
-          <h5>Used</h5>
-          <p>From : Buea, Caneroon</p>
-          <div>
-            <a href="#"><span>+</span></a>
-            <span>1000$</span>
-          </div>
+        <article class=" col-6 col-md-3">
+           <div>
+            <img src="assets/clock/laura-chouette-zp5EGN2vxLM-unsplash.jpg" alt="vintage world pendulum clock"  >
+           </div>
+           <div class="art-description">
+            <h4>vintage world pendulum clock</h4>
+            <h5>Used</h5>
+            <p>From : Buea, Caneroon</p>
+            <div>
+              <a class="art-add" href="#"><span>+</span></a>
+              <span class="art-price">1000$</span>
+            </div>
+           </div>
         </article>
       </div>
-      <div class="watch">
-        <article>
-          <img src="assets/watches/Audemars-Piguet.jpg" alt="alarm table clock" width="350" height="300">
-          <h4>Audemars Piguet</h4>
+      <div class="watch row">
+        <article class=" col-6 col-md-3">
+          <div>
+            <img src="assets/watches/Audemars-Piguet.jpg" alt="alarm table clock"  >
+          </div>
+          <div class="art-description">
+            <h4>Audemars Piguet</h4>
           <h5>Used</h5>
           <p>From : Buea, Caneroon</p>
           <div>
-            <a href="#"><span>+</span></a>
-            <span>5800$</span>
+            <a class="art-add" href="#"><span>+</span></a>
+            <span class="art-price">5800$</span>
+          </div>
           </div>
         </article>
-        <article>
-           <img src="assets/watches/Patek-Philippe.jpeg" alt="Patek Philippe" width="350" height="300">
-          <h4>alarm table clock</h4>
+        <article class=" col-6 col-md-3">
+           <div>
+            <img src="assets/watches/Patek-Philippe.jpeg" alt="Patek Philippe"  >
+           </div>
+           <div class="art-description">
+            <h4>alarm table clock</h4>
+            <h5>Used</h5>
+            <p>From : Buea, Caneroon</p>
+            <div>
+              <a class="art-add" href="#"><span>+</span></a>
+              <span class="art-price">5800$</span>
+            </div>
+           </div>
+        </article>
+        <article class=" col-6 col-md-3">
+          <div>
+            <img src="assets/watches/rolex.jpeg" alt="rolex"  >
+          </div>
+          <div class="art-description">
+            <h4>rolex</h4>
           <h5>Used</h5>
           <p>From : Buea, Caneroon</p>
           <div>
-            <a href="#"><span>+</span></a>
-            <span>5800$</span>
+            <a class="art-add" href="#"><span>+</span></a>
+            <span class="art-price">5800$</span>
+          </div>
           </div>
         </article>
-        <article>
-           <img src="assets/watches/rolex.jpeg" alt="rolex" width="350" height="300">
-          <h4>rolex</h4>
-          <h5>Used</h5>
-          <p>From : Buea, Caneroon</p>
-          <div>
-            <a href="#"><span>+</span></a>
-            <span>5800$</span>
-          </div>
-        </article>
-        <article>
-           <img src="assets/watches/genuine-leather.jpeg" alt="genuine leather" width="350" height="300">
-          <h4>genuine leather</h4>
-          <h5>Used</h5>
-          <p>From : Buea, Caneroon</p>
-          <div>
-            <a href="#"><span>+</span></a>
-            <span>5800$</span>
-          </div>
+        <article class=" col-6 col-md-3">
+           <div>
+            <img src="assets/watches/genuine-leather.jpeg" alt="genuine leather"  >
+           </div>
+           <div class="art-description">
+            <h4>genuine leather</h4>
+            <h5>Used</h5>
+            <p>From : Buea, Caneroon</p>
+            <div>
+              <a class="art-add" href="#"><span>+</span></a>
+              <span class="art-price">5800$</span>
+            </div>
+           </div>
         </article>
       </div>
     </section>
-    <section>
+    <section class="container-fluid">
       <h3>Music Instruments</h3>
-      <div class="">
-        <article>
-          <img src="assets/music/Roland-TR8-S.jpeg" alt="Roland TR8-S" width="350" height="300">
-          <h4>Roland TR8-S</h4>
+      <div class="row music">
+        <article class=" col-6 col-md-3">
+          <div>
+            <img src="assets/music/Roland-TR8-S.jpeg" alt="Roland TR8-S"  >
+          </div>
+          <div class="art-description">
+            <h4>Roland TR8-S</h4>
           <h5>Used</h5>
           <p>From : Buea, Caneroon</p>
           <div>
-            <a href="#"><span>+</span></a>
-            <span>5800$</span>
+            <a class="art-add" href="#"><span>+</span></a>
+            <span class="art-price">5800$</span>
+          </div>
           </div>
         </article>
-        <article>
-           <img src="assets/music/Moog-Drummer-From-Another-Mother.jpeg" alt="Moog Drummer From Another Mother" width="350" height="300">
-          <h4>Moog Drummer From Another Mother</h4>
+        <article class=" col-6 col-md-3">
+          <div>
+            <img src="assets/music/Moog-Drummer-From-Another-Mother.jpeg" alt="Moog Drummer From Another Mother"  >
+          </div>
+          <div class="art-description">
+            <h4>Moog Drummer From Another Mother</h4>
           <h5>Used</h5>
           <p>From : Buea, Caneroon</p>
           <div>
-            <a href="#"><span>+</span></a>
-            <span>5800$</span>
+            <a class="art-add" href="#"><span>+</span></a>
+            <span class="art-price">5800$</span>
+          </div>
           </div>
         </article>
-        <article>
-           <img src="assets/music/Allen&Heath-Xone:96.jpeg" alt="Allen and Heath Xone:96" width="350" height="300">
-          <h4>Allen and Heath Xone:96</h4>
+        <article class=" col-6 col-md-3">
+           <div>
+            <img src="assets/music/Allen&Heath-Xone:96.jpeg" alt="Allen and Heath Xone:96"  >
+           </div>
+          <div class="art-description">
+            <h4>Allen and Heath Xone:96</h4>
           <h5>Used</h5>
           <p>From : Buea, Caneroon</p>
           <div>
-            <a href="#"><span>+</span></a>
-            <span>5800$</span>
+            <a class="art-add" href="#"><span>+</span></a>
+            <span class="art-price">5800$</span>
+          </div>
           </div>
         </article>
-        <article>
-           <img src="assets/music/guitar.jpeg" alt="guitar" width="350" height="300">
-          <h4>Guitar</h4>
+        <article class=" col-6 col-md-3">
+           <div>
+            <img src="assets/music/guitar.jpeg" alt="guitar"  >
+           </div>
+          <div class="art-description">
+            <h4>Guitar</h4>
           <h5>Used</h5>
           <p>From : Buea, Caneroon</p>
           <div>
-            <a href="#"><span>+</span></a>
-            <span>5800$</span>
+            <a class="art-add" href="#"><span>+</span></a>
+            <span class="art-price">5800$</span>
+          </div>
           </div>
         </article>
       </div>
     </section>
-    <section>
-      <div class="recorders">
-        <article>
-          <img src="assets/recorders/Sony-FDR-X3000.jpeg" alt="Sony FDR-X3000" width="350" height="300">
-          <h4>Sony FDR-X3000</h4>
+    <section class="container-fluid">
+      <h3>
+        Video recorders
+      </h3>
+      <div class="recorders row">
+        <article class=" col-6 col-md-3">
+          <div>
+            <img src="assets/recorders/Sony-FDR-X3000.jpeg" alt="Sony FDR-X3000"  >
+          </div>
+          <div class="art-description">
+            <h4>Sony FDR-X3000</h4>
           <h5>Used</h5>
           <p>From : Buea, Caneroon</p>
           <div>
-            <a href="#"><span>+</span></a>
-            <span>5800$</span>
+            <a class="art-add" href="#"><span>+</span></a>
+            <span class="art-price">5800$</span>
+          </div>
           </div>
         </article>
-        <article>
-           <img src="assets/recorders/Canon-Legria-HF-R86.jpeg" alt="Canon Legria HF-R86" width="350" height="300">
-          <h4>Canon Legria HF-R86</h4>
+        <article class=" col-6 col-md-3">
+          <div>
+            <img src="assets/recorders/Canon-Legria-HF-R86.jpeg" alt="Canon Legria HF-R86"  >
+          </div>
+          <div class="art-description">
+            <h4>Canon Legria HF-R86</h4>
           <h5>Used</h5>
           <p>From : Buea, Caneroon</p>
           <div>
-            <a href="#"><span>+</span></a>
-            <span>5800$</span>
+            <a class="art-add" href="#"><span>+</span></a>
+            <span class="art-price">5800$</span>
+          </div>
           </div>
         </article>
-        <article>
-           <img src="assets/recorders/JVC-Everio-GZ-R495.jpeg" alt="JVC Everi GZ-R495" width="350" height="300">
-          <h4>JVC Everi GZ-R495</h4>
-          <h5>Used</h5>
-          <p>From : Buea, Caneroon</p>
-          <div>
-            <a href="#"><span>+</span></a>
-            <span>5800$</span>
-          </div>
+        <article class=" col-6 col-md-3">
+           <div>
+            <img src="assets/recorders/JVC-Everio-GZ-R495.jpeg" alt="JVC Everi GZ-R495"  >
+           </div>
+           <div class="art-description">
+            <h4>JVC Everi GZ-R495</h4>
+            <h5>Used</h5>
+            <p>From : Buea, Caneroon</p>
+            <div>
+              <a class="art-add" href="#"><span>+</span></a>
+              <span class="art-price">5800$</span>
+            </div>
+           </div>
         </article>
-        <article>
-           <img src="assets/recorders/Panasonic-HC-X2000.jpeg" alt="Panasonic HC-X2000" width="350" height="300">
-          <h4>Panasonic HC-X2000</h4>
-          <h5>Used</h5>
-          <p>From : Buea, Caneroon</p>
-          <div>
-            <a href="#"><span>+</span></a>
-            <span>5800$</span>
-          </div>
+        <article class=" col-6 col-md-3">
+           <div>
+            <img src="assets/recorders/Panasonic-HC-X2000.jpeg" alt="Panasonic HC-X2000"  >
+           </div>
+           <div class="art-description">
+            <h4>Panasonic HC-X2000</h4>
+            <h5>Used</h5>
+            <p>From : Buea, Caneroon</p>
+            <div>
+              <a class="art-add" href="#"><span>+</span></a>
+              <span class="art-price">5800$</span>
+            </div>
+           </div>
         </article>
       </div>
     </section>
   </main>
-
-
-
-<footer>
-  <div class="footer-1">
-    <div >
-      <span><img src="assets/logo.png" width="40px" height="40px" alt="logo"></span>
-      <span>zattix</span>
+  <footer>
+    <div class="footer-1">
+      <div >
+        <span><img src="assets/logo.png" width="40px"   height="40px" alt="logo"></span>
+        <span>zattix</span>
+      </div>
+      <div>
+        <h5>categories</h5>
+        <ul>
+          <li>Clock and timing</li>
+          <li>musical instruments</li>
+          <li>video recorders</li>
+        </ul>
+      </div>
     </div>
-    <div>
-      <h5>categories</h5>
-      <ul>
-        <li>Clock and timing</li>
-        <li>musical instruments</li>
-        <li>video recorders</li>
-      </ul>
+    <div class="footer-2">
+      <p>
+        copyrights reserved to original author of this site
+      </p>
+      <p>
+        <span class="iconify" data-icon="feather:facebook"   data-inline="false"></span>
+        <span class="iconify" data-icon="mdi:whatsapp"   data-inline="false"></span>
+        <span class="iconify" data-icon="cib:instagram"   data-inline="false"></span>
+      </p>
     </div>
-  </div>
-  <div class="footer-2">
-    <p>
-      copyrights reserved to original author of this site
-    </p>
-    <p>
-      <span class="iconify" data-icon="feather:facebook" data-inline="false"></span>
-      <span class="iconify" data-icon="mdi:whatsapp" data-inline="false"></span>
-      <span class="iconify" data-icon="cib:instagram" data-inline="false"></span>
-    </p>
-  </div>
-</footer>
+  </footer>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
