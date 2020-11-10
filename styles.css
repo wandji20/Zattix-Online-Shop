@@ -29,7 +29,7 @@ body {
   background-color: #fff;
 }
 
-.navbar {
+nav {
   background: var(--color3);
   z-index: 99;
   position: fixed;
@@ -38,25 +38,22 @@ body {
   right: 0;
 }
 
-.navbar a {
+nav a {
+  margin: auto 10px;
   text-transform: uppercase;
   color: #fff;
 }
 
-.navbar .home {
+.home {
   color: var(--color1);
 }
 
-.navbar .navbrand {
-  font-family: main;
-}
-
-li {
-  list-style: none;
+nav img {
+  border-radius: 50%;
 }
 
 .welcome {
-  margin-top: 56px;
+  margin-top: 40px;
   background: var(--color1);
 }
 
@@ -90,7 +87,7 @@ article {
 
 article img {
   width: 100%;
-  height: 200px;
+  height: 300px;
 }
 
 .art-description {
@@ -129,35 +126,85 @@ article img {
 }
 
 footer {
-  border: 1px solid grey;
-  margin-top: 180px;
+  color: var(--color2);
+  font-family: description;
 }
 
 .footer-1 {
-  display: flex;
-  justify-content: space-around;
-  margin: auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 20px;
+}
+
+.footer-1 > div {
+  margin: 10px 10px;
+}
+
+.footer-1 h5 {
+  text-transform: capitalize;
+  color: var(--color1);
+}
+
+.footer-1 li {
+  margin-left: -40px;
+  list-style: none;
 }
 
 .footer-2 {
   display: flex;
-  justify-content: space-between;
-  margin: auto 20px;
+  justify-content: space-around;
+  border-top: 1px solid var(--color2);
+  padding-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 768px) {
+  .hot-ads {
+    background: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .hot-ads article {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 10px;
+    grid-gap: 10px;
+    margin-top: 15px;
+    font-family: title;
+    color: var(--color2);
+  }
+
+  .hot-ads img {
+    height: 250px;
+  }
+
+  .hot-ads h4 {
+    font-family: title;
+    text-transform: capitalize;
+    margin-top: 15px;
+    color: var(--color1);
+  }
+
+  .hot-ads article div {
+    background-color: #fff;
+  }
+
+  section img {
+    height: 250px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
   nav {
     display: flex;
+    justify-content: space-between;
   }
   nav div {
     display: inline;
   }
 
-  .hot-ads article {
-    display: flex;
-  }
-
-  .hot-ads img {
-    margin-right: 10px;
+  section img {
+    height: 200px;
   }
 }
