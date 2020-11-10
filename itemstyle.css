@@ -1,0 +1,128 @@
+@font-face {
+  font-family: main;
+  src: url(assets/gotham-Bold.ttf);
+}
+@font-face {
+  font-family: title;
+  src: url(assets/FontsFree-Net-HelveticaNeueBold.ttf);
+}
+@font-face {
+  font-family: description;
+  src: url(assets/HelveticaNeue\ Medium.ttf);
+}
+@font-face {
+  font-family: location;
+  src: url(assets/Helvetica\ Neue\ LT\ 23\ Ultra\ Light\ Extended.ttf);
+}
+@font-face {
+  font-family: price;
+  src: url(assets/Gotham\ Rounded\ Light.otf);
+}
+
+:root {
+  --color1: #d35266;
+  --color2: #888;
+  --color3: #383838;
+}
+
+body {
+  background-color: #fff;
+}
+
+nav {
+  background: var(--color3);
+  z-index: 99;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 50px;
+}
+
+nav div {
+  margin: auto 10px;
+  text-transform: uppercase;
+}
+
+nav a {
+  color: #fff;
+  margin: auto 10px;
+}
+
+.home {
+  color: var(--color1);
+}
+
+nav img {
+  border-radius: 50%;
+}
+
+.welcome {
+  margin-top: 40px;
+  background: var(--color1);
+}
+
+.welcome h1 {
+  font-family: main;
+}
+
+.welcome h4 {
+  font-family: price;
+}
+
+.main-content {
+  display: flex;
+}
+
+.inventory {
+  width: 23%;
+  margin: 10px auto;
+}
+
+.search-result {
+  margin: auto 10;
+  width: 70%;
+}
+
+footer {
+  color: var(--color2);
+  font-family: description;
+}
+
+.footer-1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 20px;
+}
+
+.footer-1 > div {
+  margin: 10px 10px;
+}
+
+.footer-1 h5 {
+  text-transform: capitalize;
+  color: var(--color1);
+}
+
+.footer-1 li {
+  margin-left: -40px;
+  list-style: none;
+}
+
+.footer-2 {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid var(--color2);
+  padding-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+@media only screen and (min-width: 992px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  nav div {
+    display: inline;
+  }
+}
