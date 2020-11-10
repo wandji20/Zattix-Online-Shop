@@ -72,6 +72,8 @@ nav img {
 
 .main-content {
   display: flex;
+  justify-content: space-between;
+  background-color: var(--color2);
 }
 
 .inventory {
@@ -79,8 +81,24 @@ nav img {
   margin: 10px auto;
 }
 
+legend {
+  border-bottom: 1px solid var(--color3);
+  font-family: title;
+}
+
+.inventory input {
+  display: block;
+  padding: 10px;
+  font-family: description;
+}
+
+legend span {
+  display: inline-block;
+  font-family: description;
+}
+
 .search-result {
-  margin: auto 10;
+  margin: auto 10px;
   width: 70%;
 }
 
