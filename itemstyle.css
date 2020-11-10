@@ -102,6 +102,47 @@ legend span {
   width: 70%;
 }
 
+.search-result article {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.search-result p span,
+.search-result q {
+  font-family: title;
+}
+
+.search-result h5 {
+  font-family: main;
+  color: var(--color1);
+}
+
+.search-result img {
+  max-width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}
+
+.search-result h4 {
+  font-family: description;
+}
+
+.action {
+  display: flex;
+  justify-content: space-between;
+}
+
+.action button {
+  background: var(--color1);
+  font-family: description;
+  color: #fff;
+  padding: 7px;
+  margin-right: 20px;
+}
+
 footer {
   color: var(--color2);
   font-family: description;
