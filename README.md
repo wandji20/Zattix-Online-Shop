@@ -26,7 +26,7 @@
 
 ## Author
 
-# Wandji Bertrand
+Wandji Bertrand
 
 - Github: [@wandji20]
 - Twitter: [@wandjibertrand]
