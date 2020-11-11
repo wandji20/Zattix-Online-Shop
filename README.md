@@ -33,7 +33,7 @@
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome! Start by:
+Contributions, issues, and feature requests are welcome! Start by:
 
 - Forking the project
 - Cloning the project to your local machine
@@ -41,8 +41,12 @@ Contributions, issues and feature requests are welcome! Start by:
 - Run `git checkout -b your-branch-name`
 - Make your contributions
 - Push your branch up to your forked repository
-- Open a Pull Request with a detailed description to the feature branch of the original project for a review
+- Open a Pull Request with a detailed description to the feature branch of the original project for a review.
 
 ## Show your support
 
 Give a :star: if you like this project!
+
+## copyright
+
+Mohammed Awad
