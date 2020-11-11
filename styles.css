@@ -62,10 +62,6 @@ nav button {
   padding: 8px;
 }
 
-button a {
-  color: #fff;
-}
-
 a:hover {
   text-decoration: none;
   color: var(--color2);
@@ -104,6 +100,12 @@ nav img {
   background: var(--color3);
   color: #fff;
   margin-left: 10px;
+}
+
+.button {
+  background: var(--color3);
+  padding-top: 16px;
+  color: #fff;
 }
 
 section {
