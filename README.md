@@ -1,4 +1,4 @@
-##Capstone-ZATTIX-Online-Shop
+## Capstone-ZATTIX-Online-Shop
 
     This project was built based on the Layout, Typography and Colors of the ZATTIX online shop.
 
@@ -22,11 +22,11 @@
 
 ## Live Demo
 
-[Live Demo Link]()
-
-## Automated Test
+[Live Demo Link](https://raw.githack.com/wandji20/Capstone-Online-Shop/feature-branch/index.html)
 
 ## Author
+
+# Wandji Bertrand
 
 - Github: [@wandji20]
 - Twitter: [@wandjibertrand]
