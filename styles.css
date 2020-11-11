@@ -236,6 +236,10 @@ footer {
     color: var(--color2);
   }
 
+  section img {
+    height: 250px;
+  }
+
   .hot-ads img {
     height: 250px;
   }
@@ -260,12 +264,7 @@ footer {
     color: #fff;
     margin-left: 10px;
     font-family: description;
-
     padding: 12px;
-  }
-
-  section img {
-    height: 250px;
   }
 }
 
@@ -274,6 +273,7 @@ footer {
     display: flex;
     justify-content: space-between;
   }
+
   nav div {
     display: inline;
   }

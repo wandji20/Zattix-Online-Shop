@@ -2,18 +2,22 @@
   font-family: main;
   src: url(assets/gotham-Bold.ttf);
 }
+
 @font-face {
   font-family: title;
   src: url(assets/FontsFree-Net-HelveticaNeueBold.ttf);
 }
+
 @font-face {
   font-family: description;
   src: url(assets/HelveticaNeue\ Medium.ttf);
 }
+
 @font-face {
   font-family: location;
   src: url(assets/Helvetica\ Neue\ LT\ 23\ Ultra\ Light\ Extended.ttf);
 }
+
 @font-face {
   font-family: price;
   src: url(assets/Gotham\ Rounded\ Light.otf);
@@ -125,6 +129,13 @@ legend span {
   border-top: 1px solid var(--color3);
 }
 
+.footer1-details span {
+  text-transform: uppercase;
+  color: var(--color1);
+  display: inline-block;
+  margin-right: 5px;
+}
+
 .search-result p span,
 .search-result q {
   font-family: title;
@@ -185,13 +196,6 @@ footer {
 
 .footer1-details {
   padding-top: 40px;
-}
-
-.footer1-details span {
-  text-transform: uppercase;
-  color: var(--color1);
-  display: inline-block;
-  margin-right: 5px;
 }
 
 .footer1-details input {
