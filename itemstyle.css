@@ -67,17 +67,17 @@ nav img {
 }
 
 .welcome h1 {
-  font-family: main;
+  font-family: main, sans-serif;
 }
 
 .welcome h4 {
-  font-family: price;
+  font-family: price, sans-serif;
 }
 
 .welcome select,
 .welcome input,
 .welcome button {
-  font-family: description;
+  font-family: description, sans-serif;
   margin-left: 2px;
   padding: 12px;
 }
@@ -100,18 +100,18 @@ nav img {
 
 legend {
   border-bottom: 1px solid var(--color3);
-  font-family: title;
+  font-family: title, sans-serif;
 }
 
 .inventory input {
   display: block;
   padding: 10px;
-  font-family: description;
+  font-family: description, sans-serif;
 }
 
 legend span {
   display: inline-block;
-  font-family: description;
+  font-family: description, sans-serif;
 }
 
 .search-result {
@@ -138,11 +138,11 @@ legend span {
 
 .search-result p span,
 .search-result q {
-  font-family: title;
+  font-family: title, sans-serif;
 }
 
 .search-result h5 {
-  font-family: main;
+  font-family: main, sans-serif;
   color: var(--color1);
 }
 
@@ -153,7 +153,7 @@ legend span {
 }
 
 .search-result h4 {
-  font-family: description;
+  font-family: description, sans-serif;
 }
 
 .action {
@@ -163,7 +163,7 @@ legend span {
 
 .action button {
   background: var(--color1);
-  font-family: description;
+  font-family: description, sans-serif;
   color: #fff;
   padding: 7px;
   margin-right: 20px;
@@ -171,7 +171,7 @@ legend span {
 
 footer {
   color: var(--color2);
-  font-family: description;
+  font-family: description, sans-serif;
 }
 
 .footer-1 {

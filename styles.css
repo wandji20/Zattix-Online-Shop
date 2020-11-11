@@ -83,17 +83,17 @@ nav img {
 }
 
 .welcome h1 {
-  font-family: main;
+  font-family: main, sans-serif;
 }
 
 .welcome h4 {
-  font-family: price;
+  font-family: price, sans-serif;
 }
 
 .welcome select,
 .welcome input,
 .welcome button {
-  font-family: description;
+  font-family: description, sans-serif;
   margin-left: 2px;
   padding: 12px;
 }
@@ -111,7 +111,7 @@ section {
 }
 
 section h3 {
-  font-family: title;
+  font-family: title, sans-serif;
   text-transform: capitalize;
   margin-top: 15px;
 }
@@ -134,14 +134,14 @@ article img {
 }
 
 .art-description h4 {
-  font-family: description;
+  font-family: description, sans-serif;
   color: var(--color2);
   text-transform: capitalize;
 }
 
 .art-description h5 {
   color: var(--color1);
-  font-family: title;
+  font-family: title, sans-serif;
 }
 
 .art-description div {
@@ -161,12 +161,12 @@ article img {
 .art-price {
   color: var(--color1);
   margin-right: 30px;
-  font-family: title;
+  font-family: title, sans-serif;
 }
 
 footer {
   color: var(--color2);
-  font-family: description;
+  font-family: description, sans-serif;
 }
 
 .footer-1 {
@@ -232,7 +232,7 @@ footer {
     padding: 10px;
     grid-gap: 30px;
     margin-top: 15px;
-    font-family: title;
+    font-family: title, sans-serif;
     color: var(--color2);
   }
 
@@ -245,7 +245,7 @@ footer {
   }
 
   .hot-ads h4 {
-    font-family: title;
+    font-family: title, sans-serif;
     text-transform: capitalize;
     margin-top: 15px;
     color: var(--color1);
@@ -263,7 +263,7 @@ footer {
     background: var(--color1);
     color: #fff;
     margin-left: 10px;
-    font-family: description;
+    font-family: description, sans-serif;
     padding: 12px;
   }
 }
