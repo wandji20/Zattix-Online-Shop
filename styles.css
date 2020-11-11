@@ -60,6 +60,15 @@ nav button {
   padding: 8px;
 }
 
+button a {
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: none;
+  color: var(--color2);
+}
+
 .home {
   color: var(--color1);
 }
