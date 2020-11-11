@@ -40,6 +40,7 @@ nav {
   left: 0;
   top: 0;
   right: 0;
+  height: 70px;
 }
 
 nav a {
@@ -51,6 +52,12 @@ nav a {
 .iconify {
   display: inline-block;
   margin: auto 3px;
+}
+
+nav button {
+  background: var(--color1);
+  color: #fff;
+  padding: 8px;
 }
 
 .home {
@@ -229,6 +236,10 @@ footer {
     text-transform: capitalize;
     margin-top: 15px;
     color: var(--color1);
+  }
+
+  .hot-ads p span {
+    color: var(--color3);
   }
 
   .hot-ads article div {
