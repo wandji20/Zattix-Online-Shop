@@ -10,17 +10,17 @@
 
 @font-face {
   font-family: description;
-  src: url(assets/HelveticaNeue\ Medium.ttf);
+  src: url(assets/HelveticaNeue-Medium.ttf);
 }
 
 @font-face {
   font-family: location;
-  src: url(assets/Helvetica\ Neue\ LT\ 23\ Ultra\ Light\ Extended.ttf);
+  src: url(assets/Helvetica-Neue-LT-23-Ultra-Light-Extended.ttf);
 }
 
 @font-face {
   font-family: price;
-  src: url(assets/Gotham\ Rounded\ Light.otf);
+  src: url(assets/Gotham-Rounded-Light.otf);
 }
 
 :root {
@@ -31,6 +31,7 @@
 
 body {
   background-color: #fff;
+  margin: auto 0;
 }
 
 nav {
