@@ -70,6 +70,19 @@ nav img {
   font-family: price;
 }
 
+.welcome select,
+.welcome input,
+.welcome button {
+  font-family: description;
+  margin-left: 2px;
+  padding: 12px;
+}
+
+.welcome button {
+  background: var(--color3);
+  color: #fff;
+}
+
 .main-content {
   display: flex;
   justify-content: space-between;
