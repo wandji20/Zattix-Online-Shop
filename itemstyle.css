@@ -113,6 +113,7 @@ legend span {
 .search-result {
   margin: auto 10px;
   width: 70%;
+  border-left: 1px solid var(--color3);
 }
 
 .search-result article {
@@ -121,6 +122,7 @@ legend span {
   margin-top: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
+  border-top: 1px solid var(--color3);
 }
 
 .search-result p span,
@@ -188,6 +190,12 @@ footer {
 .footer1-details span {
   text-transform: uppercase;
   color: var(--color1);
+  display: inline-block;
+  margin-right: 5px;
+}
+.footer1-details input {
+  display: block;
+  margin-top: 5px;
 }
 
 .footer-2 {
@@ -198,12 +206,8 @@ footer {
   margin-left: 20px;
   margin-right: 20px;
 }
-/* @media only screen and (min-width: 992px) {
-  nav {
-    display: flex;
-    justify-content: space-between;
-  }
-  nav div {
-    display: inline;
-  }
-} */
+
+.footer-2 .iconify {
+  color: var(--color1);
+  margin-left: 10px;
+}
