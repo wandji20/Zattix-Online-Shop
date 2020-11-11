@@ -2,18 +2,22 @@
   font-family: main;
   src: url(assets/gotham-Bold.ttf);
 }
+
 @font-face {
   font-family: title;
   src: url(assets/FontsFree-Net-HelveticaNeueBold.ttf);
 }
+
 @font-face {
   font-family: description;
   src: url(assets/HelveticaNeue\ Medium.ttf);
 }
+
 @font-face {
   font-family: location;
   src: url(assets/Helvetica\ Neue\ LT\ 23\ Ultra\ Light\ Extended.ttf);
 }
+
 @font-face {
   font-family: price;
   src: url(assets/Gotham\ Rounded\ Light.otf);
@@ -44,6 +48,11 @@ nav a {
   color: #fff;
 }
 
+.iconify {
+  display: inline-block;
+  margin: auto 3px;
+}
+
 .home {
   color: var(--color1);
 }
@@ -63,6 +72,20 @@ nav img {
 
 .welcome h4 {
   font-family: price;
+}
+
+.welcome select,
+.welcome input,
+.welcome button {
+  font-family: description;
+  margin-left: 2px;
+  padding: 12px;
+}
+
+.welcome button {
+  background: var(--color3);
+  color: #fff;
+  margin-left: 10px;
 }
 
 section {
@@ -186,11 +209,12 @@ footer {
     padding-top: 10px;
     padding-bottom: 10px;
   }
+
   .hot-ads article {
     display: grid;
     grid-template-columns: 1fr 2fr;
     padding: 10px;
-    grid-gap: 10px;
+    grid-gap: 30px;
     margin-top: 15px;
     font-family: title;
     color: var(--color2);
@@ -209,6 +233,15 @@ footer {
 
   .hot-ads article div {
     background-color: #fff;
+  }
+
+  .hot-ads button {
+    background: var(--color1);
+    color: #fff;
+    margin-left: 10px;
+    font-family: description;
+
+    padding: 12px;
   }
 
   section img {
