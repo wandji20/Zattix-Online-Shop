@@ -16,52 +16,66 @@
 </head>
 <body>
   <header>
-    <nav class="container-fluid color-white d-flex text-center">
-      <div class="text-center ">
-        <a href="index.html" class=" home">
+    <nav class=" navbar navbar-expand-md navbar-light fixed-top">
+      <a href="#" class="navbar-brand">
+        <span><img src="assets/logo.png" width="40" height="40" alt="logo"></span>
+        <span class="text-uppercase text-white">zattix</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-cont" >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nav-cont">
+        <a href="index.html" class=" home nav-item nav-link">
           <span class="iconify" data-icon="ant-design:home-filled" data-inline="false"></span>
           <span>Home</span>
         </a>
-        <a href="#" class="">
+        <a href="#" class="nav-item nav-link" >
           <span class="iconify" data-icon="carbon:list-boxes" data-inline="false"></span>
           <span>collections</span>
         </a>
-        <a href="#" class="">
+        <a href="#" class="nav-item nav-link" >
           <span class="iconify" data-icon="ant-design:shopping-cart-outlined" data-inline="false"></span>
           <span>purchase list</span>
         </a>
-        <a href="#" class="">
-          <span>icon</span>
-          <span>post an AD</span>
+          <button type="button"  class=" nav-item nav-link">POST AN AD</button>
+      </div>
+      <div class=" d-none d-lg-inline">
+        <a href="#" >
+          <span class="iconify" data-icon="mdi:android-messages" data-inline="false"></span>
+          <span>Marie Ange</span>
+          <span><img src="assets/user-img.jpeg" alt="" width="40" height="40"></span>
         </a>
       </div>
     </nav>
   </header>
-  <section class="welcome container-fluid pt-5 ">
-    <h1 class="text-uppercase text-white">
+  <section class="welcome   pt-5 ">
+    <h1 class="text-uppercase text-white text-center">
       zattix
     </h1 >
-    <h4 class="text-white mt-4">Buying And Selling Couldn't be Simpler that this!</h4>
-    <div class="container py-3  ml-0">
-      <form class="row ">
-        <select name="categories" id="categories" class="col-3">
-          <option value="recorders">Video Recorders</option>
+    <h4 class="text-white text-center mt-4">Buying And Selling Couldn't be Simpler that this!</h4>
+    <div class=" pb-2">
+      <form class=" ">
+        <select name="categories" id="categories"  ">
+          <option value="departments">All Departments</option>
           <option value="clock">Clock and Timing</option>
           <option value="music">Music Maker</option>
+          <option value="recorders">Video Recorders</option>
         </select>
-        <input class="col-3" type="search" placeholder=" video recorder">
-        <input class="col-3" type="text" placeholder="Bamenda">
-        <button class="col-2" type="submit">Search</button>
+        <input class=" " type="search" placeholder="  search item">
+        <input class="" type="text" placeholder="location">
+        <div class="text-center navigate">
+          <a class=" button" href="items.html">Search</a>
+        </div>
       </form>
     </div>
   </section>
-  <div class="main-content ">
-    <section class="inventory">
+  <div class="main-content container-fluid ">
+    <section class="inventory d-none d-md-block">
       <form>
         <fieldset>
           <legend>Transaction option</legend>
-          <input class="d-inline" type="radio" name="transaction-option" id="rent"> <span>Rent</span>
-          <input class="d-inline" type="radio" name="transaction-option" id="buy"> <span>Buy</span>
+          <input class="d-block d-md-inline" type="radio" name="transaction-option" id="rent"> <span>Rent</span>
+          <input class="d-block d-md-inline" type="radio" name="transaction-option" id="buy"> <span>Buy</span>
         </fieldset>
         <fieldset>
           <legend>
@@ -96,13 +110,13 @@
       </form>
     </section>
     <section class="search-result">
-      <p>
+      <p class="text-center">
         <span>30</span> Results for <q>Video Recorders</q> Search at <span>Bamenda</span> 
       </p>
       <div>
         <article>
           <div>
-            <img src="assets/recorders/Sony-FS5-II.jpeg" alt="Panasonic HC-X2000">
+            <img src="assets/recorders/Sony-FS5-II.png" alt="Panasonic HC-X2000">
           </div>
           <div>
             <h4>
@@ -127,7 +141,7 @@
         </article>
         <article class="bg-white">
           <div>
-            <img src="assets/recorders/Canon-Legria-HF-G26.jpeg" alt="Canon Legria HF-G26">
+            <img src="assets/recorders/Canon-Legria-HF-G26.png" alt="Canon Legria HF-G26">
           </div>
           <div>
             <h4>
@@ -153,7 +167,7 @@
         </article>
         <article>
           <div>
-            <img src="assets/recorders/Panasonic-HC-X2000.jpeg" alt="Panasonic HC-X2000">
+            <img src="assets/recorders/Panasonic-HC-X2000.png" alt="Panasonic HC-X2000">
           </div>
           <div>
             <h4>
@@ -178,7 +192,7 @@
         </article>
         <article>
           <div>
-            <img src="assets/recorders/JVC-Everio-GZ-R495.jpeg" alt="JVC-Everio GZ-R495">
+            <img src="assets/recorders/JVC-Everio-GZ-R495.png" alt="JVC-Everio GZ-R495">
           </div>
           <div>
             <h4>
@@ -204,47 +218,56 @@
       </div>
     </section>
   </div>
-  <footer>
-    <div class="footer-1 w-100">
-      <div class="" >
-        <span><img class="ml-3" src="assets/logo.png" width="40"   height="40" alt="logo"></span>
-        <span class="ml-3 text-uppercase" >zattix</span>
+  <footer class="container-fluid ">
+    <div class="footer-1 ">
+      <div >
+        <div class="d-none d-md-inline-flex justify-center">
+          <span><img class="ml-3" src="assets/logo.png" width="40"   height="40" alt="logo"></span>
+          <span class="ml-3 text-uppercase" >zattix</span>
+        </div>
         <p class="d-none d-md-block">
           Lorem ipsum is a name for a common type of placeholder text. Also known as filler or dummy text, this is simply copy that serves to fill a space without actually saying anything meaningful.
         </p>
       </div>
-      <div class="">
-        <h5>categories</h5>
-        <ul>
-          <li>Clock and timing</li>
-          <li>musical instruments</li>
-          <li>video recorders</li>
-        </ul>
+      <div  class="d-none d-md-inline">
+        <h5 class="pb-1">categories</h5>
+        <div class="d-md-flex justify-between">
+          <ul class="mr-3">
+            <li>Clock </li>
+            <li>musical instruments</li>
+            <li>video recorders</li>
+          </ul>
+          <ul class="mr-3">
+            <li>Back to Home Page</li>
+            <li>sign up for latest deals</li>
+            <li>Terms and Conditions</li>
+            <li>How to buy</li>
+            <li>FAQ</li>
+          </ul>
+          <ul class="">
+            <li>Back to Home Page</li>
+            <li>sign up for latest deals</li>
+            <li>Terms and Conditions</li>
+            <li>How to buy</li>
+            <li>FAQ</li>
+          </ul>
+        </div>
       </div>
-      <div class="">
-        <h5>navigation</h5>
-        <ul>
-          <li>Back to Home Page</li>
-          <li>sign up for latest deals</li>
-          <li>Terms and Conditions</li>
-          <li>How to buy</li>
-          <li>FAQ</li>
-        </ul>
-      </div>
-      <div class="footer1-details">
+      <div class="footer1-details d-none d-md-block">
         <span>country</span><input type="text" id="country"   placeholder="cameroon">
         <span>Language</span><input type="text" id="language"   placeholder="English">
         <span>currency</span><input type="text" id="currency"   placeholder="USD">
       </div>
     </div>  
     <div class="footer-2">
-      <p>
-        copyrights reserved to original author of this site
+      <p class="text-center">
+        Copyrights 2015 Zattix.com. All Rights Reserved. Designed by Mohammed Awad
       </p>
-      <p>
-        <span class="iconify" data-icon="feather:facebook"    data-inline="false"></span>
-        <span class="iconify" data-icon="mdi:whatsapp"    data-inline="false"></span>
-        <span class="iconify" data-icon="cib:instagram"    data-inline="false"></span>
+      <p  class="d-none d-md-block">
+        <span class="iconify" data-icon="jam:yahoo" data-inline="false"></span>
+        <span class="iconify" data-icon="entypo-social:google" data-inline="false"></span>
+        <span class="iconify" data-icon="ri:linkedin-fill" data-inline="false"></span>
+        <span class="iconify" data-icon="ant-design:twitter-outlined" data-inline="false"></span>
       </p>
     </div>
   </footer>

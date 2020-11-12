@@ -37,15 +37,9 @@ body {
 
 nav {
   background: var(--color3);
-  /* z-index: 99;
-  position: fixed;
-  left: 0;
-  top: 0;
-  right: 0; */
 }
 
 nav a {
-  /* margin: auto 6px; */
   text-transform: uppercase;
   color: #fff;
 }

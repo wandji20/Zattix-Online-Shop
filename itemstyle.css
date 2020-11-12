@@ -30,41 +30,46 @@
 }
 
 body {
-  background-color: #fff;
-  margin: auto 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 nav {
   background: var(--color3);
-  z-index: 99;
-  position: fixed;
-  left: 0;
-  top: 0;
-  right: 0;
-  height: 50px;
-}
-
-nav div {
-  margin: auto 10px;
-  text-transform: uppercase;
 }
 
 nav a {
+  text-transform: uppercase;
   color: #fff;
-  margin: auto 10px;
+}
+nav img {
+  border-radius: 50%;
+}
+
+.iconify {
+  display: inline-block;
+  margin: auto 3px;
+}
+
+nav button {
+  background: var(--color1);
+  color: #fff;
+  padding: 8px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: var(--color2);
 }
 
 .home {
   color: var(--color1);
 }
 
-nav img {
-  border-radius: 50%;
-}
-
 .welcome {
-  margin-top: 40px;
   background: var(--color1);
+  margin-top: 60px;
 }
 
 .welcome h1 {
@@ -75,50 +80,28 @@ nav img {
   font-family: price, sans-serif;
 }
 
-.welcome select,
-.welcome input,
-.welcome button {
-  font-family: description, sans-serif;
-  margin-left: 2px;
-  padding: 12px;
+.welcome form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.welcome form input,
+.welcome form select {
+  width: 50%;
+  margin: 0 auto 2px;
 }
 
 .welcome button {
   background: var(--color3);
   color: #fff;
+  margin-left: 10px;
 }
 
-.main-content {
-  display: flex;
-  justify-content: space-between;
-  background-color: var(--color2);
-}
-
-.inventory {
-  width: 23%;
-  margin: 10px auto;
-}
-
-legend {
-  border-bottom: 1px solid var(--color3);
-  font-family: title, sans-serif;
-}
-
-.inventory input {
-  display: block;
-  padding: 10px;
-  font-family: description, sans-serif;
-}
-
-legend span {
-  display: inline-block;
-  font-family: description, sans-serif;
-}
-
-.search-result {
-  margin: auto 10px;
-  width: 70%;
-  border-left: 1px solid var(--color3);
+.button {
+  background: var(--color3);
+  color: #fff;
+  padding: 5px 63px;
 }
 
 .search-result article {
@@ -127,7 +110,13 @@ legend span {
   margin-top: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
-  border-top: 1px solid var(--color3);
+  border-top: 1px solid var(--color2);
+}
+
+.search-result img {
+  width: 80%;
+  height: 200px;
+  margin-right: 20px;
 }
 
 .footer1-details span {
@@ -147,12 +136,6 @@ legend span {
   color: var(--color1);
 }
 
-.search-result img {
-  max-width: 200px;
-  height: 200px;
-  margin-right: 20px;
-}
-
 .search-result h4 {
   font-family: description, sans-serif;
 }
@@ -167,7 +150,6 @@ legend span {
   font-family: description, sans-serif;
   color: #fff;
   padding: 7px;
-  margin-right: 20px;
 }
 
 footer {
@@ -175,45 +157,125 @@ footer {
   font-family: description, sans-serif;
 }
 
-.footer-1 {
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr;
-  grid-gap: 10px;
-}
-
-.footer-1 > div {
-  margin: 10px 10px;
-}
-
-.footer-1 h5 {
-  text-transform: capitalize;
-  color: var(--color1);
-}
-
-.footer-1 li {
-  margin-left: -40px;
-  list-style: none;
-}
-
-.footer1-details {
-  padding-top: 40px;
-}
-
-.footer1-details input {
-  display: block;
-  margin-top: 5px;
-}
-
 .footer-2 {
-  display: flex;
-  justify-content: space-around;
   border-top: 1px solid var(--color2);
-  padding-top: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
+  padding-top: 10px;
 }
 
-.footer-2 .iconify {
-  color: var(--color1);
-  margin-left: 10px;
+@media only screen and (min-width: 768px) {
+  .welcome form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .welcome form {
+    margin: 30px;
+  }
+
+  .welcome form input,
+  .welcome form select {
+    width: 25%;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .navigate {
+    margin-top: 12px;
+  }
+
+  .button {
+    padding-bottom: 13px;
+    padding-top: 13px;
+  }
+
+  .main-content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .search-result {
+    width: 70%;
+  }
+
+  .inventory {
+    width: 23%;
+    margin: 10px auto;
+  }
+
+  legend {
+    border-bottom: 1px solid var(--color3);
+    font-family: title, sans-serif;
+  }
+
+  .inventory input {
+    display: block;
+    padding: 10px;
+    font-family: description, sans-serif;
+  }
+
+  legend span {
+    display: inline-block;
+    font-family: description, sans-serif;
+  }
+
+  .footer-1 {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+  }
+
+  .footer-1 > div {
+    margin: 10px 10px;
+  }
+
+  .footer-1 h5 {
+    text-transform: uppercase;
+    color: var(--color1);
+  }
+
+  .footer-1 h5 {
+    border-bottom: 1px solid var(--color1);
+  }
+
+  .footer-1 li {
+    margin-left: -40px;
+    list-style: none;
+  }
+
+  .footer1-details {
+    padding-top: 40px;
+  }
+
+  .footer1-details {
+    padding-top: 40px;
+  }
+
+  .footer1-details input {
+    display: block;
+    margin-top: 5px;
+  }
+
+  .footer-2 {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid var(--color2);
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .footer-2 .iconify {
+    color: var(--color1);
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  nav div {
+    display: inline;
+  }
 }
