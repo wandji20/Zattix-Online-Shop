@@ -126,8 +126,13 @@ article {
   margin-top: 15px;
 }
 
+.art {
+  position: relative;
+}
+
 .art-description {
   padding-left: 10px;
+  margin-top: 30px;
 }
 
 .art-description h4 {
@@ -167,9 +172,9 @@ footer {
 }
 
 .footer-1 {
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr;
-  grid-gap: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
 }
 
 .footer-1 > div {
@@ -188,6 +193,7 @@ footer {
 
 .footer1-details {
   padding-top: 40px;
+  padding-left: 40px;
 }
 
 .footer1-details span {
@@ -207,7 +213,7 @@ footer {
 }
 
 .footer-2 .iconify {
-  color: var(--color1);
+  color: var(--color2);
   margin-left: 10px;
 }
 
@@ -287,7 +293,7 @@ footer {
   .clock article img,
   .music article img,
   .recorders article img {
-    height: 134px;
+    height: 174px;
   }
 
   .footer-1 {

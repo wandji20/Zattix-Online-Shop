@@ -15,9 +15,9 @@
     Tablet Site - Minimum Width - 768px
     Desktop Site - Minimum Width - 992px
 
-![Screenshot](assets/home.png/ "Homepage Screenshot of Tablet Viewport")
+![Screenshot](assets/screenshot1/ "Homepage Screenshot of Tablet Viewport")
 
-![Screenshot](assets/item.png "Items Page Screenshot of Tablet Viewport")
+![Screenshot](assets/screenshot2/ "Items Page Screenshot of Tablet Viewport")
 
 ## Built With
 
