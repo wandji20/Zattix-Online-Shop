@@ -87,11 +87,6 @@ a:hover {
   justify-content: center;
 }
 
-.inventory input {
-  display: inline-block;
-  margin-left: 5px;
-}
-
 .welcome form input,
 .welcome form select {
   width: 50%;
@@ -169,7 +164,8 @@ footer {
 
 @media only screen and (min-width: 768px) {
   .inventory input {
-    display: block;
+    display: inline-block;
+    margin-left: 5px;
     padding: 10px;
     font-family: description, sans-serif;
   }
@@ -222,6 +218,7 @@ footer {
   }
 
   .inventory fieldset {
+    display: block;
     margin-top: 20px;
   }
 
