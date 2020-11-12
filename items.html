@@ -17,7 +17,7 @@
 <body>
   <header>
     <nav class=" navbar navbar-expand-md navbar-light fixed-top">
-      <a href="#" class="navbar-brand">
+      <a href="index.html" class="navbar-brand">
         <span><img src="assets/logo.png" width="40" height="40" alt="logo"></span>
         <span class="text-uppercase text-white">zattix</span>
       </a>
@@ -74,34 +74,58 @@
       <form>
         <fieldset>
           <legend>Transaction option</legend>
-          <input class="d-block d-md-inline" type="radio" name="transaction-option" id="rent"> <span>Rent</span>
-          <input class="d-block d-md-inline" type="radio" name="transaction-option" id="buy"> <span>Buy</span>
+          <input type="radio" name="transaction-option" id="rent"> <span>Rent</span>
+          <input type="radio" name="transaction-option" id="buy"> <span>Buy</span>
         </fieldset>
         <fieldset>
           <legend>
             who is renting
           </legend>
-          <input type="radio" id="company" name="identity"> <span>company</span>
-          <input type="radio" id="family" name="identity"> <span>Family</span>
-          <input type="radio" id="identity" name="identity"> <span>individual</span>
+        <label>
+          <input class="" type="radio" id="company" name="identity"> company
+        </label>
+          <label>
+            <input type="radio" id="family" name="identity"> Family
+          </label>
+          <label>
+           <input  type="radio"  id="identity" name="identity"> individual
+          </label>
         </fieldset>
         <fieldset>
           <legend>Where you want to use</legend>
-          <input type="radio" name="usage" id="home"> <span>Home</span>
-          <input type="radio" name="usage" id="outdoor"> <span>Outdoor</span>
+          <label  >
+            <input  type="radio" name="usage" id="home"> Home
+          </label>
+          <label>
+            <input type="radio" name="usage" id="outdoor"> Outdoor
+          </label>
         </fieldset>
         <fieldset>
           <legend>Event Duration</legend>
-          <input type="radio" name="duration" id="least"> <span>less that 12 hrs</span>
-          <input type="radio" name="duration" id="average"> <span>Less than 24hrs</span>
-          <input type="radio" name="duration" id="maximum"> <span>Less than three days</span>
+        <label>
+          <input type="radio" name="duration" id="least"> less that 12 hrs
+        </label>
+         <label >
+          <input type="radio" name="duration" id="average"> Less than 24hrs
+         </label>
+        <label >
+          <input type="radio" name="duration" id="maximum"> Less than three days
+        </label>
         </fieldset>
         <fieldset>
           <legend>Price Range</legend>
-          <input type="radio" id="price1" name="price-range"><span> 100$ - 400$</span>
-          <input type="radio" id="price2" name="price-range"><span> 400$ - 800$</span>
-          <input type="radio" id="price3" name="price-range"><span> 800$ - 1500$</span>
-          <input type="radio" id="price4" name="price-range"><span> +1500$</span>
+        <label>
+          <input type="radio" id="price1" name="price-range"> 100$ - 400$
+        </label>
+         <label f>
+          <input type="radio" id="price2" name="price-range"> 400$ - 800$
+         </label>
+          <label>
+            <input type="radio" id="price3" name="price-range"> 800$ - 1500$
+          </label>
+          <label class="d-block">
+            <input type="radio" id="price4" name="price-range"> +1500$
+          </label>
         </fieldset>
         <fieldset>
           <legend>Quantity</legend>
@@ -118,7 +142,7 @@
           <div>
             <img src="assets/recorders/Sony-FS5-II.png" alt="Panasonic HC-X2000">
           </div>
-          <div>
+          <div class="pl-3">
             <h4>
               Sony 
             </h4>
@@ -143,7 +167,7 @@
           <div>
             <img src="assets/recorders/Canon-Legria-HF-G26.png" alt="Canon Legria HF-G26">
           </div>
-          <div>
+          <div class="pl-3">
             <h4>
               Canon Legria HF-G26
             </h4>
@@ -169,7 +193,7 @@
           <div>
             <img src="assets/recorders/Panasonic-HC-X2000.png" alt="Panasonic HC-X2000">
           </div>
-          <div>
+          <div class="pl-3">
             <h4>
               Panasonic 
             </h4>
@@ -194,7 +218,7 @@
           <div>
             <img src="assets/recorders/JVC-Everio-GZ-R495.png" alt="JVC-Everio GZ-R495">
           </div>
-          <div>
+          <div class="pl-3">
             <h4>
               JVC-Everio 
             </h4>

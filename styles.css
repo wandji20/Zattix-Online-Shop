@@ -48,7 +48,7 @@ nav img {
   border-radius: 50%;
 }
 
-.iconify {
+nav .iconify {
   display: inline-block;
   margin: auto 3px;
 }
@@ -212,11 +212,6 @@ footer {
   margin-right: 20px;
 }
 
-.footer-2 .iconify {
-  color: var(--color2);
-  margin-left: 10px;
-}
-
 @media only screen and (min-width: 768px) {
   .welcome form {
     display: flex;
@@ -304,6 +299,11 @@ footer {
   .footer-1 h5 {
     border-bottom: 1px solid var(--color1);
   }
+
+  .footer-2 .iconify {
+    color: var(--color2);
+    margin-left: 5px;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -314,5 +314,10 @@ footer {
 
   nav div {
     display: inline;
+  }
+
+  .footer-2 .iconify {
+    color: var(--color2);
+    margin-left: 10px;
   }
 }

@@ -48,7 +48,7 @@ nav img {
   border-radius: 50%;
 }
 
-.iconify {
+nav .iconify {
   display: inline-block;
   margin: auto 3px;
 }
@@ -117,7 +117,6 @@ a:hover {
 .search-result img {
   width: 80%;
   height: 200px;
-  margin-right: 20px;
 }
 
 .footer1-details span {
@@ -207,9 +206,24 @@ footer {
     width: 70%;
   }
 
+  .search-result img {
+    height: 200px;
+    width: 100px;
+  }
+
   .inventory {
     width: 23%;
     margin: 10px auto;
+  }
+
+  .inventory fieldset {
+    margin-top: 20px;
+  }
+
+  .inventory label,
+  .inventory input {
+    display: inline-block;
+    margin-left: 5px;
   }
 
   legend {
@@ -254,11 +268,6 @@ footer {
     margin-left: 20px;
     margin-right: 20px;
   }
-
-  .footer-2 .iconify {
-    color: var(--color2);
-    margin-left: 10px;
-  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -269,5 +278,15 @@ footer {
 
   nav div {
     display: inline;
+  }
+
+  .search-result img {
+    width: 100%;
+    margin-right: 15px;
+  }
+
+  .footer-2 .iconify {
+    color: var(--color2);
+    margin-left: 10px;
   }
 }
