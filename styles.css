@@ -43,6 +43,7 @@ nav a {
   text-transform: uppercase;
   color: #fff;
 }
+
 nav img {
   border-radius: 50%;
 }
@@ -84,6 +85,11 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.footer1-details input {
+  display: block;
+  margin-top: 5px;
 }
 
 .welcome form input,
@@ -191,11 +197,6 @@ footer {
   margin-right: 5px;
 }
 
-.footer1-details input {
-  display: block;
-  margin-top: 5px;
-}
-
 .footer-2 {
   display: flex;
   justify-content: space-around;
@@ -215,8 +216,6 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
-  }
-  .welcome form {
     margin: 30px;
   }
 
