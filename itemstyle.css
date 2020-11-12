@@ -87,6 +87,11 @@ a:hover {
   justify-content: center;
 }
 
+.inventory input {
+  display: inline-block;
+  margin-left: 5px;
+}
+
 .welcome form input,
 .welcome form select {
   width: 50%;
@@ -220,8 +225,7 @@ footer {
     margin-top: 20px;
   }
 
-  .inventory label,
-  .inventory input {
+  .inventory label {
     display: inline-block;
     margin-left: 5px;
   }
