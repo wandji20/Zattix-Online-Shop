@@ -235,10 +235,20 @@ footer {
     padding-top: 13px;
   }
 
+  .slider {
+    font-family: main, sans-serif;
+    color: var(--color1);
+    position: absolute;
+    right: -40px;
+    bottom: 150px;
+    font-size: 2.5em;
+  }
+
   .hot-ads {
     width: 80%;
     padding-top: 10px;
     padding-bottom: 10px;
+    position: relative;
   }
 
   .hot-ads article {

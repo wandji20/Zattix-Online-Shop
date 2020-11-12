@@ -2,6 +2,13 @@
 
     This project was built based on the Layout, Typography and Colors of the ZATTIX online shop.
 
+      In this project I mostly used:
+
+       -Bootsrap to design the navbar and article products aswell as thier positioning.
+
+       -CSS Flexbox for the welcome section and footer.
+
+
     Break Points:
 
     Mobile Site - Minimum Width - 375px
