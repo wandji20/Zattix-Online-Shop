@@ -1,0 +1,294 @@
+@font-face {
+  font-family: main;
+  src: url(assets/gotham-Bold.ttf);
+}
+
+@font-face {
+  font-family: title;
+  src: url(assets/FontsFree-Net-HelveticaNeueBold.ttf);
+}
+
+@font-face {
+  font-family: description;
+  src: url(assets/HelveticaNeue-Medium.ttf);
+}
+
+@font-face {
+  font-family: location;
+  src: url(assets/Helvetica-Neue-LT-23-Ultra-Light-Extended.ttf);
+}
+
+@font-face {
+  font-family: price;
+  src: url(assets/Gotham-Rounded-Light.otf);
+}
+
+:root {
+  --color1: #d35266;
+  --color2: #888;
+  --color3: #383838;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+nav {
+  background: var(--color3);
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #fff;
+}
+
+nav img {
+  border-radius: 50%;
+}
+
+nav .iconify {
+  display: inline-block;
+  margin: auto 3px;
+}
+
+nav button {
+  background: var(--color1);
+  color: #fff;
+  padding: 8px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: var(--color2);
+}
+
+.home {
+  color: var(--color1);
+}
+
+.welcome {
+  background: var(--color1);
+  margin-top: 60px;
+}
+
+.welcome h1 {
+  font-family: main, sans-serif;
+}
+
+.welcome h4 {
+  font-family: price, sans-serif;
+}
+
+.welcome form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.welcome form input,
+.welcome form select {
+  width: 50%;
+  margin: 0 auto 2px;
+}
+
+.welcome button {
+  background: var(--color3);
+  color: #fff;
+  margin-left: 10px;
+}
+
+.button {
+  background: var(--color3);
+  color: #fff;
+  padding: 5px 63px;
+}
+
+.search-result article {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid var(--color2);
+}
+
+.search-result img {
+  width: 80%;
+  height: 200px;
+}
+
+.footer1-details span {
+  text-transform: uppercase;
+  color: var(--color1);
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.search-result p span,
+.search-result q {
+  font-family: title, sans-serif;
+}
+
+.search-result h5 {
+  font-family: main, sans-serif;
+  color: var(--color1);
+}
+
+.search-result h4 {
+  font-family: description, sans-serif;
+}
+
+.action {
+  display: flex;
+  justify-content: space-between;
+}
+
+.action button {
+  background: var(--color1);
+  font-family: description, sans-serif;
+  color: #fff;
+  padding: 7px;
+}
+
+footer {
+  color: var(--color2);
+  font-family: description, sans-serif;
+}
+
+.footer-2 {
+  border-top: 1px solid var(--color2);
+  padding-top: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .inventory input {
+    display: inline-block;
+    margin-left: 5px;
+    padding: 10px;
+    font-family: description, sans-serif;
+  }
+
+  .welcome form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px;
+  }
+
+  .footer1-details input {
+    display: block;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+
+  .welcome form input,
+  .welcome form select {
+    width: 25%;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .navigate {
+    margin-top: 12px;
+  }
+
+  .button {
+    padding-bottom: 13px;
+    padding-top: 13px;
+  }
+
+  .main-content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .search-result {
+    width: 70%;
+  }
+
+  .search-result img {
+    height: 200px;
+    width: 100px;
+  }
+
+  .inventory {
+    width: 23%;
+    margin: 10px auto;
+  }
+
+  .inventory fieldset {
+    display: block;
+    margin-top: 20px;
+  }
+
+  .inventory label {
+    display: inline-block;
+    margin-left: 5px;
+  }
+
+  legend {
+    border-bottom: 1px solid var(--color3);
+    font-family: title, sans-serif;
+  }
+
+  legend span {
+    display: inline-block;
+    font-family: description, sans-serif;
+  }
+
+  .footer-1 {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+  }
+
+  .footer-1 > div {
+    margin: 10px 10px;
+  }
+
+  .footer-1 h5 {
+    text-transform: uppercase;
+    color: var(--color1);
+    border-bottom: 1px solid var(--color1);
+  }
+
+  .footer-1 li {
+    margin-left: -40px;
+    list-style: none;
+  }
+
+  .footer1-details {
+    padding-top: 40px;
+  }
+
+  .footer-2 {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid var(--color2);
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  nav div {
+    display: inline;
+  }
+
+  .search-result img {
+    width: 100%;
+    margin-right: 15px;
+  }
+
+  .footer-2 .iconify {
+    color: var(--color2);
+    margin-left: 10px;
+  }
+}

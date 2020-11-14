@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="itemstyle.css">
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+</head>
+<body>
+  <header>
+    <nav class=" navbar navbar-expand-md navbar-light fixed-top">
+      <a href="index.html" class="navbar-brand">
+        <span><img src="assets/logo.png" width="40" height="40" alt="logo"></span>
+        <span class="text-uppercase text-white">zattix</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-cont" >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nav-cont">
+        <a href="index.html" class=" home nav-item nav-link">
+          <span class="iconify" data-icon="ant-design:home-filled" data-inline="false"></span>
+          <span>Home</span>
+        </a>
+        <a href="#" class="nav-item nav-link" >
+          <span class="iconify" data-icon="carbon:list-boxes" data-inline="false"></span>
+          <span>collections</span>
+        </a>
+        <a href="#" class="nav-item nav-link" >
+          <span class="iconify" data-icon="ant-design:shopping-cart-outlined" data-inline="false"></span>
+          <span>purchase list</span>
+        </a>
+          <button type="button"  class=" nav-item nav-link">POST AN AD</button>
+      </div>
+      <div class=" d-none d-lg-inline">
+        <a href="#" >
+          <span class="iconify" data-icon="mdi:android-messages" data-inline="false"></span>
+          <span>Marie Ange</span>
+          <span><img src="assets/user-img.jpeg" alt="" width="40" height="40"></span>
+        </a>
+      </div>
+    </nav>
+  </header>
+  <section class="welcome   pt-5 ">
+    <h1 class="text-uppercase text-white text-center">
+      zattix
+    </h1 >
+    <h4 class="text-white text-center mt-4">Buying And Selling Couldn't be Simpler that this!</h4>
+    <div class=" pb-2">
+      <form class=" ">
+        <select name="categories" id="categories">
+          <option value="departments">All Departments</option>
+          <option value="clock">Clock and Timing</option>
+          <option value="music">Music Maker</option>
+          <option value="recorders">Video Recorders</option>
+        </select>
+        <input type="search" placeholder="  search item">
+        <input  type="text" placeholder="location">
+        <div class="text-center navigate">
+          <a class=" button" href="items.html">Search</a>
+        </div>
+      </form>
+    </div>
+  </section>
+  <div class="main-content container-fluid bg-light ">
+    <div class="inventory d-none d-md-block">     
+      <form>
+        <fieldset>
+          <legend>Transaction option</legend>
+          <input type="radio" name="transaction-option" id="rent"> <span>Rent</span>
+          <input type="radio" name="transaction-option" id="buy"> <span>Buy</span>
+        </fieldset>
+        <fieldset>
+          <legend>
+            who is renting
+          </legend>
+        <label>
+          <input  type="radio" id="company" name="identity"> company
+        </label>
+          <label>
+            <input type="radio" id="family" name="identity"> Family
+          </label>
+          <label>
+           <input  type="radio"  id="identity" name="identity"> individual
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Where you want to use</legend>
+          <label  >
+            <input  type="radio" name="usage" id="home"> Home
+          </label>
+          <label>
+            <input type="radio" name="usage" id="outdoor"> Outdoor
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Event Duration</legend>
+        <label>
+          <input type="radio" name="duration" id="least"> less that 12 hrs
+        </label>
+         <label >
+          <input type="radio" name="duration" id="average"> Less than 24hrs
+         </label>
+        <label >
+          <input type="radio" name="duration" id="maximum"> Less than three days
+        </label>
+        </fieldset>
+        <fieldset>
+          <legend>Price Range</legend>
+        <label>
+          <input type="radio" id="price1" name="price-range"> 100$ - 400$
+        </label>
+         <label>
+          <input type="radio" id="price2" name="price-range"> 400$ - 800$
+         </label>
+          <label>
+            <input type="radio" id="price3" name="price-range"> 800$ - 1500$
+          </label>
+          <label class="d-block">
+            <input type="radio" id="price4" name="price-range"> +1500$
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Quantity</legend>
+          <input type="number" min="1" max="100">
+        </fieldset>
+      </form>
+    </div>
+    <div class="search-result">
+      <p class="text-center pt-2">
+        <span>30</span> Results for <q>Video Recorders</q> Search at <span>Bamenda</span> 
+      </p>
+      <div>
+        <article>
+          <div>
+            <img src="assets/recorders/Sony-FS5-II.png" alt="Panasonic HC-X2000">
+          </div>
+          <div class="pl-3">
+            <h4>
+              Sony 
+            </h4>
+            <h5>
+              FS5-II
+            </h5>
+            <p>
+              What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since type specimen book it has?
+            </p>
+            <p>
+              <span>Location</span> <span> Commercial Avenue, Bamenda, Cameroon </span>
+            </p>
+            <div class="action">
+              <span>10 Nov 2020</span> 
+              <form>
+                <button type="button">500$</button>
+              </form>
+            </div>
+          </div>
+        </article>
+        <article class="bg-white">
+          <div>
+            <img src="assets/recorders/Canon-Legria-HF-G26.png" alt="Canon Legria HF-G26">
+          </div>
+          <div class="pl-3">
+            <h4>
+              Canon Legria HF-G26
+            </h4>
+            <h5>
+              HF-G26
+            </h5>
+            <p>
+              What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since type specimen book it has?
+            </p>
+            <p>
+              <span>Location</span> Commercial Avenue, Bamenda, Cameroon
+            </p>
+            <div class="action">
+              <span>10 Nov 2020</span> 
+              <form>
+                <button type="button">Give a Call</button>
+                <button type="button">500$</button>
+              </form>
+            </div>
+          </div>
+        </article>
+        <article>
+          <div>
+            <img src="assets/recorders/Panasonic-HC-X2000.png" alt="Panasonic HC-X2000">
+          </div>
+          <div class="pl-3">
+            <h4>
+              Panasonic 
+            </h4>
+            <h5>
+              HC-X2000
+            </h5>
+            <p>
+              What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since type specimen book it has?
+            </p>
+            <p>
+              <span>Location</span>  Commercial Avenue, Bamenda, Cameroon 
+            </p>
+            <div class="action">
+              <span>10 Nov 2020</span> 
+              <form>
+                <button type="button">500$</button>
+              </form>
+            </div>
+          </div>
+        </article>
+        <article>
+          <div>
+            <img src="assets/recorders/JVC-Everio-GZ-R495.png" alt="JVC-Everio GZ-R495">
+          </div>
+          <div class="pl-3">
+            <h4>
+              JVC-Everio 
+            </h4>
+            <h5>
+              GZ-R495
+            </h5>
+            <p>
+              What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since type specimen book it has?
+            </p>
+            <p>
+              <span>Location</span>  Commercial Avenue, Bamenda, Cameroon 
+            </p>
+            <div class="action">
+              <span>10 Nov 2020</span> 
+              <form>
+                <button type="button">500$</button>  
+              </form>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+  <footer class="container-fluid ">
+    <div class="footer-1 ">
+      <div >
+        <div class="d-none d-md-inline-flex justify-center">
+          <span><img class="ml-3" src="assets/logo.png" width="40"   height="40" alt="logo"></span>
+          <span class="ml-3 text-uppercase" >zattix</span>
+        </div>
+        <p class="d-none d-md-block">
+          Lorem ipsum is a name for a common type of placeholder text. Also known as filler or dummy text, this is simply copy that serves to fill a space without actually saying anything meaningful.
+        </p>
+      </div>
+      <div  class="d-none d-md-inline">
+        <h5 class="pb-1">categories</h5>
+        <div class="d-md-flex justify-between">
+          <ul >
+            <li>Clock </li>
+            <li>musical instruments</li>
+            <li>video recorders</li>
+          </ul>
+          <ul >
+            <li>Back to Home Page</li>
+            <li>sign up for latest deals</li>
+            <li>Terms and Conditions</li>
+            <li>How to buy</li>
+            <li>FAQ</li>
+          </ul>
+          <ul >
+            <li>Back to Home Page</li>
+            <li>sign up for latest deals</li>
+            <li>Terms and Conditions</li>
+            <li>How to buy</li>
+            <li>FAQ</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer1-details d-none d-md-block">
+        <span>country</span><input type="text" id="country"   placeholder="cameroon">
+        <span>Language</span><input type="text" id="language"   placeholder="English">
+        <span>currency</span><input type="text" id="currency"   placeholder="USD">
+      </div>
+    </div>  
+    <div class="footer-2">
+      <p class="text-center">
+        Copyrights 2015 Zattix.com. All Rights Reserved. Designed by Mohammed Awad
+      </p>
+      <p  class="d-none d-md-block">
+        <span class="iconify" data-icon="jam:yahoo" data-inline="false"></span>
+        <span class="iconify" data-icon="entypo-social:google" data-inline="false"></span>
+        <span class="iconify" data-icon="ri:linkedin-fill" data-inline="false"></span>
+        <span class="iconify" data-icon="ant-design:twitter-outlined" data-inline="false"></span>
+      </p>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
