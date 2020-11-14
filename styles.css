@@ -90,6 +90,7 @@ a:hover {
 .footer1-details input {
   display: block;
   margin-top: 5px;
+  border-radius: 5px;
 }
 
 .welcome form input,
