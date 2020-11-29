@@ -57,6 +57,8 @@ nav button {
   background: var(--color1);
   color: #fff;
   padding: 8px;
+  border: none;
+  border-radius: 5px;
 }
 
 a:hover {
@@ -87,28 +89,26 @@ a:hover {
   justify-content: center;
 }
 
+.form-item {
+  margin: 2px auto 2px;
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 0 10px;
+}
+
+.navigate {
+  background: var(--color3);
+}
+
+.navigate a {
+  color: #fff;
+}
+
 .footer1-details input {
   display: block;
   margin-top: 5px;
   border-radius: 5px;
-}
-
-.welcome form input,
-.welcome form select {
-  width: 50%;
-  margin: 0 auto 2px;
-}
-
-.welcome button {
-  background: var(--color3);
-  color: #fff;
-  margin-left: 10px;
-}
-
-.button {
-  background: var(--color3);
-  color: #fff;
-  padding: 5px 63px;
 }
 
 section {
