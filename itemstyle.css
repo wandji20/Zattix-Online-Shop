@@ -57,6 +57,8 @@ nav button {
   background: var(--color1);
   color: #fff;
   padding: 8px;
+  border: none;
+  border-radius: 5px;
 }
 
 a:hover {
@@ -85,24 +87,24 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-bottom: 20px;
 }
 
-.welcome form input,
-.welcome form select {
-  width: 50%;
-  margin: 0 auto 2px;
+.form-item {
+  margin: 2px auto 2px;
+  width: 200px;
+  height: 45px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 0 10px;
 }
 
-.welcome button {
+.navigate {
   background: var(--color3);
-  color: #fff;
-  margin-left: 10px;
 }
 
-.button {
-  background: var(--color3);
+.navigate a {
   color: #fff;
-  padding: 5px 63px;
 }
 
 .search-result article {
@@ -171,32 +173,21 @@ footer {
   }
 
   .welcome form {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 30px;
+    display: block;
+    padding-bottom: 50px;
+    margin-top: 35px;
+  }
+
+  .form-item {
+    display: inline-block;
+    width: 130px;
+    height: 45px;
   }
 
   .footer1-details input {
     display: block;
     margin-top: 5px;
     border-radius: 5px;
-  }
-
-  .welcome form input,
-  .welcome form select {
-    width: 25%;
-    margin: 0;
-    padding: 10px;
-  }
-
-  .navigate {
-    margin-top: 12px;
-  }
-
-  .button {
-    padding-bottom: 13px;
-    padding-top: 13px;
   }
 
   .main-content {
@@ -280,6 +271,10 @@ footer {
 
   nav div {
     display: inline;
+  }
+
+  .form-item {
+    width: 180px;
   }
 
   .search-result img {

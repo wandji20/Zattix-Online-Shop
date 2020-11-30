@@ -87,11 +87,13 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-bottom: 20px;
 }
 
 .form-item {
   margin: 2px auto 2px;
   width: 200px;
+  height: 45px;
   border: none;
   border-radius: 5px;
   padding: 10px 0 10px;
@@ -215,27 +217,21 @@ footer {
 
 @media only screen and (min-width: 768px) {
   .welcome form {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 30px;
+    display: block;
+    padding-bottom: 50px;
+    margin-top: 35px;
   }
 
-  .welcome form input,
-  .welcome form select {
-    width: 25%;
-    margin: 0;
-    padding: 10px;
+  .form-item {
+    display: inline-block;
+    width: 130px;
+    height: 45px;
   }
 
-  .navigate {
-    margin-top: 12px;
-  }
-
-  .button {
+  /* .button {
     padding-bottom: 13px;
     padding-top: 13px;
-  }
+  } */
 
   .slider {
     font-family: main, sans-serif;
@@ -315,6 +311,10 @@ footer {
 
   nav div {
     display: inline;
+  }
+
+  .form-item {
+    width: 180px;
   }
 
   .footer-2 .iconify {
